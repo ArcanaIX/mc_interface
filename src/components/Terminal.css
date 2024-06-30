@@ -1,0 +1,41 @@
+button {
+    background: #02bd21;
+    padding-inline : 20px;
+    padding-block: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.terminal {
+    height: 600px;
+    width: 45%;
+    background: #000;
+    position: relative;
+    border: white 5px solid;
+}
+
+.terminal input {
+    position: absolute;
+    width: 99.65%;
+    padding: 0;
+    margin: 0;
+    border: white 2px solid;
+    background: #000;
+    height: 40px;
+    bottom: 0;
+    color: white;
+}
+
+.terminal input:focus {
+    outline: none;
+}
+
+.terminal textarea {
+    position: absolute;
+    width: 99.65%;
+    resize: none;
+    height: calc(100% - 40px);
+    background: black;
+    color: white;
+}
